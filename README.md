@@ -40,7 +40,7 @@ When looking at solutions, we have a table like this :
 And we can see that every solution is a multiple of 4. This let me think that there should exists at least two big symmetries that, once applied, can find only a quarter of the total number of solutions. (It is useless to calculate a solution $S_1$ and a solution $S_2$ if $S_2$ can be derived from $S_1$ applying the symmetry found - as we have seen in our course for the symmetries applied to the chess board).
 
 ## The $R^{180}$ symmetry
-The simpler symmetry that I could spot was the symmetry that I will call $R^{1580}$. By this symmetry, given $S_1 = (s_1, s_2, \dots, s_n)$ we can deduce $S_2 = (s_n, s_{n-1}, \dots, s_1)$ which is also a solution of the problem. 
+The simpler symmetry that I could spot was the symmetry that I will call $R^{180}$. By this symmetry, given $S_1 = (s_1, s_2, \dots, s_n)$ we can deduce $S_2 = (s_n, s_{n-1}, \dots, s_1)$ which is also a solution of the problem. 
 
 In order to avoid $R^{180}$ to be calculated,  we can force an order on two of variables of $s$, for example we can say that $s_1 < s_2$ or $s_1 < s_2$ or $s_1 < s_n$. In any case, we see that when we force a variable $s_i$ to be strictly smaller than a variable $s_j$ (with $i \neq j$), we can halve the number of solutions.
 
